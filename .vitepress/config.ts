@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  base: "/vitepress-basic-docs",
+  base: "/",
   title: "VAdmire Plus",
   description: "VAdmire Plus 静态网站基本模板",
   themeConfig: {
