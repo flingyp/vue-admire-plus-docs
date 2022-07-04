@@ -8,11 +8,12 @@
     "build": "vitepress build",
     "serve": "vitepress serve",
     "commit": "git-cz",
-    "changelog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0  -n ./changelog-option.js"
+    "changelog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0  -n ./changelog-option.js",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flingyp/vitepress-basic-docs"
+    "url": "git+https://github.com/flingyp/vue-admire-plus-docs"
   },
   "keywords": [
     "Vitepress",
@@ -21,9 +22,9 @@
   "author": "FlingYP",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/github.com/flingyp/issues"
+    "url": "https://github.com/flingyp/vue-admire-plus-docs/issues"
   },
-  "homepage": "https://github.com/github.com/flingyp#readme",
+  "homepage": "https://github.com/flingyp/vue-admire-plus-docs#readme",
   "devDependencies": {
     "@commitlint/cli": "^17.0.0",
     "@commitlint/config-conventional": "^17.0.0",
@@ -32,7 +33,7 @@
     "conventional-changelog": "^3.1.25",
     "conventional-changelog-cli": "^2.2.2",
     "conventional-changelog-custom-config": "^0.3.1",
-    "husky": "^8.0.1",
+    "husky": "^7.0.0",
     "lint-staged": "^13.0.3",
     "typescript": "^4.6.4",
     "vitepress": "^1.0.0-alpha.4",
