@@ -9,7 +9,7 @@ export default defineConfig({
     logo: "/docs-logo.png",
     nav: [
       { text: "指引", link: "/guide/" },
-      { text: "配置", link: "/configs/" },
+      // { text: "集成", link: "/integrate/" },
       {
         text: "相关链接",
         items: [
@@ -22,7 +22,6 @@ export default defineConfig({
       },
     ],
     socialLinks: [{ icon: "github", link: "https://github.com/flingyp" }],
-    // TODO: 左侧侧边栏
     sidebar: {
       "/guide/": [
         {
@@ -38,17 +37,7 @@ export default defineConfig({
           ],
         },
       ],
-      "/configs": [
-        {
-          text: "Section Title A",
-          collapsible: true, // 是否开启折叠
-          collapsed: false, // 默认折叠
-          items: [
-            { text: "Item A", link: "/item-a" },
-            { text: "Item B", link: "/item-b" },
-          ],
-        },
-      ],
+      "/integrate/": [],
     },
     editLink: {
       pattern:
