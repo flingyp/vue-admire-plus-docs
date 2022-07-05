@@ -28,8 +28,13 @@ export default defineConfig({
         {
           text: "Guide",
           items: [
-            { text: "Introduction", link: "/guide/" },
-            { text: "Getting Started", link: "/getting-started" },
+            { text: "介绍", link: "/guide/" },
+            { text: "快速上手", link: "/guide/quick" },
+            { text: "系统配置", link: "/guide/config" },
+            { text: "路由", link: "/guide/router" },
+            { text: "菜单", link: "/guide/menu" },
+            { text: "权限", link: "/guide/permission" },
+            { text: "主题色", link: "/guide/colors" },
           ],
         },
       ],
