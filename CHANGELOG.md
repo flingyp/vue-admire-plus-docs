@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/flingyp/vue-admire-plus-docs/compare/v1.2.0...v1.3.0) (2022-07-05)
+
+
+### Features
+
+* 删除convertional-changelog 添加standard-version ([ef6bec8](https://github.com/flingyp/vue-admire-plus-docs/commit/ef6bec89456938e9475788efa6a3528f4a318382))
+* 指引部分 ([cd7c7e3](https://github.com/flingyp/vue-admire-plus-docs/commit/cd7c7e3567e6c7ab3f1929a61c0a0e55aecf7f17))
+
 ## [1.2.0](https://github.com/flingyp/vue-admire-plus-docs/compare/v1.1.0...v1.2.0) (2022-07-04)
 
 
